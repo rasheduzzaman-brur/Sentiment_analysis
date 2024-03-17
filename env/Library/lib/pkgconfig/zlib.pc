@@ -1,0 +1,13 @@
+prefix=D:/personal/google_gemini/Sentiment_analysis/env/Library
+exec_prefix=D:/personal/google_gemini/Sentiment_analysis/env/Library
+libdir=D:/personal/google_gemini/Sentiment_analysis/env/Library/lib
+sharedlibdir=D:/personal/google_gemini/Sentiment_analysis/env/Library/lib
+includedir=D:/personal/google_gemini/Sentiment_analysis/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
